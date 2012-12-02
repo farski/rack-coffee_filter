@@ -4,6 +4,10 @@ Watches for .coffee requests and tries to compile down to javascript. It will on
 
 You might think you want to use this gem. You could be wrong. It probably only makes sense for very small projects or in development. 
 
+#### Caveat
+
+Some rack servers (like Pow) serve files in /public statically. In those cases this gem won't do anything.
+
 ## Installation
 
 Add this line to your application's Gemfile:
