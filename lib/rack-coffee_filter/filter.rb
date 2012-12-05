@@ -21,7 +21,7 @@ module Rack
 
           headers['Content-Length'] = javascript.length.to_s
           headers['Content-Type'] = 'application/javascript;charset=utf-8'
-          headers['Cache-Control'] = 'private, max-age=0, must-revalidate'
+          headers['Cache-Control'] = 'private, max-age=0, no-cache'
           headers['Last-Modified'] = Time.now.to_s
 
           [200, headers, javascript]
