@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["chris@farski.com"]
   gem.description   = %q{Makes coffeescript javascript}
   gem.summary       = %q{Cut down on your coffee cold turkey.}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/farski/rack-coffee_filter"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
